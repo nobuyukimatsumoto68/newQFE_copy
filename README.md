@@ -13,3 +13,4 @@ The lattice can be defined on the following manifolds:
 - Any of the above lattices with an orthogonal extra dimension.
 # qfe_mod
 # qfe_mod
+# qfe_mod
