@@ -1,0 +1,30 @@
+# object files
+*.o
+
+# executable files
+bin/*
+
+# system files
+.DS_Store
+
+# data files
+*.dat
+*.bin
+
+# bash script files
+*.sh
+
+# jupyter notebooks
+jupyter/*
+
+# cached python files
+*.log
+*.pot
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+
+include/boost*
+include/Eigen*
+include/eigen*
