@@ -1,3 +1,6 @@
+This is a copy of the repository:
+[brower/newQFE](https://github.com/brower/newQFE)
+
 # Quantum Finite Elements
 
 Code for lattice simulations using the quantum finite element method.
@@ -11,6 +14,3 @@ The lattice can be defined on the following manifolds:
 - S2 lattice from Platonic solids triangulated and projected onto a unit sphere.
 - S3 lattice from 5-cell, 16-cell, and 600-cell projected onto a unit sphere.
 - Any of the above lattices with an orthogonal extra dimension.
-# qfe_mod
-# qfe_mod
-# qfe_mod
