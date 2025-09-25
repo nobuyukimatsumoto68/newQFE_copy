@@ -11,7 +11,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "rng.h"
+// #include "rng.h"
 #include "util.h"
 
 #define MAX_SITE_NEIGHBORS 20
@@ -66,7 +66,7 @@ class QfeLattice {
   virtual void ReadLink(FILE* file, int l);
   virtual void ReadFace(FILE* file, int f);
   virtual void ReadCell(FILE* file, int c);
-  void SeedRng(unsigned int seed);
+  // void SeedRng(unsigned int seed);
   void InitRect(int Nx, int Ny, Double wt_x, Double wt_y);
   void InitTriangle(int N, Double wt1, Double wt2, Double wt3);
   void InitTriangle(int Nx, int Ny, Double wt1, Double wt2, Double wt3);
@@ -107,7 +107,7 @@ class QfeLattice {
   std::vector<int> distinct_first;    // representative site for distinct group
   int n_distinct;
 
-  QfeRng rng;
+  // QfeRng rng;
 };
 
 QfeLattice::QfeLattice() {
@@ -316,7 +316,7 @@ void QfeLattice::ReadCell(FILE* file, int c) {
  * @param seed Random number generator seed value
  */
 
-void QfeLattice::SeedRng(unsigned int seed) { rng = QfeRng(seed); }
+// void QfeLattice::SeedRng(unsigned int seed) { rng = QfeRng(seed); }
 
 /**
  * @brief Create a flat, rectangular lattice with periodic boundary conditions
